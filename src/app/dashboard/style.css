@@ -1,0 +1,52 @@
+/* * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .app {
+    font-family: sans-serif;
+    
+    display: flex;
+    flex-wrap: wrap
+  }
+  
+  .app > h1 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px
+  }
+  
+  .app > h2 {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .app > h3 {
+    display: block;
+    width: 100%;
+    padding: 10px
+  }
+  
+  .app > p {
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+  }
+   */
+/* Works for Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Works for Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+
+
